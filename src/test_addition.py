@@ -11,7 +11,7 @@ class TestAddition(unittest.TestCase):
         """
         value1 = 2
         value2 = 6
-        expected = 81
+        expected = 8
         actual = addition(value1, value2)
         self.assertEqual(expected, actual)
 
