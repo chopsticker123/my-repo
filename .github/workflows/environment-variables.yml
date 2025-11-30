@@ -4,7 +4,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
-      BRANCH: main
+      BRANCH: mainXXX
     steps:
       - run: echo "${BRANCH}"
       - uses: actions/checkout@v4
